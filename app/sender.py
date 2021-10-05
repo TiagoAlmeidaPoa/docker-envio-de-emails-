@@ -8,5 +8,5 @@ def send():
         assunto, mensagem 
     )
 
-if _name_=='_main_':
+if __name__ == '__main__':
     run(host='0.0.0.0', port=8080, debug=True)
